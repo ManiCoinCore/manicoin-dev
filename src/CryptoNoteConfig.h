@@ -47,7 +47,7 @@ const size_t ZAWY_DIFFICULTY_V2                          = 0;
 const uint8_t ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION   = 0;
 const uint32_t BUGGED_ZAWY_DIFFICULTY_BLOCK_INDEX                 = 0;
 const unsigned EMISSION_SPEED_FACTOR                         = 22;
-const uint64_t GENESIS_BLOCK_REWARD                          = 1056000000000000000;
+const uint64_t GENESIS_BLOCK_REWARD                          = 0;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
 
 const size_t   CRYPTONOTE_REWARD_BLOCKS_WINDOW               = 100;
@@ -105,7 +105,7 @@ const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.bin
 const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
 const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff00018080c096fbccead30e02b96889e4844d7e1c1bc51d31f9186e36982fa19727e97d5d65767be12116129e21012648dc603125c8f985657cccdebcd54b95b7189f4b8e5adce5246908bcf2b62d";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "";
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "ManiCoin";
