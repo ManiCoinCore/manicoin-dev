@@ -99,8 +99,8 @@ namespace
   const command_line::arg_descriptor<std::string> arg_CRYPTONOTE_NAME  = {"CRYPTONOTE_NAME", "Cryptonote name. Used for storage directory", CryptoNote::CRYPTONOTE_NAME};
   const command_line::arg_descriptor< std::vector<std::string> > arg_CHECKPOINT  = {"CHECKPOINT", "Checkpoints. Format: HEIGHT:HASH"};
   const command_line::arg_descriptor<uint32_t>    arg_BUGGED_ZAWY_DIFFICULTY_BLOCK_INDEX  = {"BUGGED_ZAWY_DIFFICULTY_BLOCK_INDEX", "uint32_t", 0};
-  const command_line::arg_descriptor<uint32_t>    arg_ZAWY_DIFFICULTY_BLOCK_INDEX  = {"ZAWY_DIFFICULTY_BLOCK_INDEX", "uint32_t", 0};
-  const command_line::arg_descriptor<size_t>    arg_ZAWY_DIFFICULTY_V2  = {"ZAWY_DIFFICULTY_V2", "size_t", 0};
+  const command_line::arg_descriptor<uint32_t>    arg_ZAWY_DIFFICULTY_BLOCK_INDEX  = {"ZAWY_DIFFICULTY_BLOCK_INDEX", "uint32_t", CryptoNote::parameters::ZAWY_DIFFICULTY_BLOCK_INDEX};
+  const command_line::arg_descriptor<size_t>    arg_ZAWY_DIFFICULTY_V2  = {"ZAWY_DIFFICULTY_V2", "size_t", CryptoNote::parameters::ZAWY_DIFFICULTY_V2};
   const command_line::arg_descriptor<uint8_t>    arg_ZAWY_DIFFICULTY_BLOCK_VERSION  = {"ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION", "uint8_t", CryptoNote::parameters::ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION};
   const command_line::arg_descriptor<uint64_t>    arg_GENESIS_BLOCK_REWARD  = {"GENESIS_BLOCK_REWARD", "uint64_t", CryptoNote::parameters::GENESIS_BLOCK_REWARD};
   const command_line::arg_descriptor<size_t>    arg_CRYPTONOTE_COIN_VERSION  = {"CRYPTONOTE_COIN_VERSION", "size_t", 0};
