@@ -105,7 +105,7 @@ const char     CRYPTONOTE_BLOCKINDEXES_FILENAME[]            = "blockindexes.bin
 const char     CRYPTONOTE_POOLDATA_FILENAME[]                = "poolstate.bin";
 const char     P2P_NET_DATA_FILENAME[]                       = "p2pstate.bin";
 const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json";
-const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff00018080c096fbccead30e02704d7d8aee1c081a17f7e30ad0edd18ff9a1fe51cc79ef9705858dccfa82bd6b21015a7c1c8165ade69409af3ce9032f0dcb5c7addff6b66ae28954b8c714544572f";
+const char     GENESIS_COINBASE_TX_HEX[]                     = "013c01ff0001f6c090fde52d029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101213f26a1ff8f2069efbc17670b747ebcebdd6260168fa1146cde6f31e05973b6";
 } // parameters
 
 const char     CRYPTONOTE_NAME[]                             = "ManiCoin";
