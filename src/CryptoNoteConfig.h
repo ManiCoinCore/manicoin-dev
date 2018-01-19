@@ -37,15 +37,15 @@ const size_t   BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW             = 60;
 const uint64_t MONEY_SUPPLY                                  = UINT64_C(6600000000000000000);
 const size_t MIN_MIXIN                          = 1;
 const uint8_t MANDATORY_MIXIN_BLOCK_VERSION     = 0;
-const uint32_t MIXIN_START_HEIGHT                          = 100;
+const uint32_t MIXIN_START_HEIGHT                          = 10;
 const uint32_t MANDATORY_TRANSACTION                          = 0;
 const uint32_t KILL_HEIGHT                          = 0;
 const uint64_t TAIL_EMISSION_REWARD                          = 0;
-const size_t CRYPTONOTE_COIN_VERSION                          = 0;
-const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                 = 0;
-const size_t ZAWY_DIFFICULTY_V2                          = 0;
-const uint8_t ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION   = 0;
-const uint32_t BUGGED_ZAWY_DIFFICULTY_BLOCK_INDEX                 = 0;
+const size_t CRYPTONOTE_COIN_VERSION                          = 1;
+const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                 = 100;
+const size_t ZAWY_DIFFICULTY_V2                          = 1;
+const uint8_t ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION   = 2;
+const uint32_t BUGGED_ZAWY_DIFFICULTY_BLOCK_INDEX                 = 100;
 const unsigned EMISSION_SPEED_FACTOR                         = 22;
 const uint64_t GENESIS_BLOCK_REWARD                          = 1056000000000000000;
 const bool SYNC_FROM_ZERO                                 = true;
@@ -143,7 +143,6 @@ const size_t   P2P_DEFAULT_HANDSHAKE_INVOKE_TIMEOUT          = 5000;          //
 const char     P2P_STAT_TRUSTED_PUB_KEY[]                    = "";
 
 const char* const SEED_NODES[] = {
-    "46.4.82.121:8270",
     "91.238.91.104:8270"
 };
 
@@ -154,8 +153,8 @@ struct CheckpointData {
 };
 
 const std::initializer_list<CheckpointData> CHECKPOINTS = {
-  //{55000,  "84190dfb00457f90be17eb9d9f35ae509423d10c9efaa3e9fdc3c12062cb2c2a"},
-  //{233000, "95f4090b845df3c680454aa69f0565e9d70be24ffa1720def740159f0244a97b"},
+  //{100,  "4c431ae58c749e37fcfb13e76acae13f3257ab88908a31cc71065d4d9d152e25"},
+  //{1600, "7f61faafd45e63a9565fbc1bb434c076d8fc53c852d2c90c5edbfda0448890bf"},
 };
 } // CryptoNote
 
